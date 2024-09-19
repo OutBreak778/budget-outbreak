@@ -40,7 +40,7 @@ export default function Home() {
                 href={isSignedIn ? "/dashboard" : "/"}
                 className=" bg-[#f3f3f3] rounded-md"
               >
-                <Button  variant="default" size="sm">
+                <Button  variant="outline" size="sm">
                 <LayoutDashboard className="size-6 mr-2" />
                   Dashboard
                 </Button>
