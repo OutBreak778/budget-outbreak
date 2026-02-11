@@ -28,7 +28,7 @@ const page = () => {
             <Skeleton className="h-8 w-48" />
           </CardHeader>
           <CardContent className="h-[500px] w-full flex items-center justify-center">
-            <Loader2 className="animate-spin text-gray-300 size-7" />
+            <Loader2 className="animate-spin text-gray-300 size-7 " />
           </CardContent>
         </Card>
       </div>
